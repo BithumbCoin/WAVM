@@ -10,7 +10,7 @@ This is a standalone VM for WebAssembly. It can load both the standard binary fo
 
 To build it, you'll need CMake and [LLVM 6.0](http://llvm.org/releases/download.html#6.0.0). If CMake can't find your LLVM directory, you can manually give it the location in the LLVM_DIR CMake configuration variable. Note that on Windows, you must compile LLVM from source, and manually point the LLVM_DIR configuration variable at `<LLVM build directory>\lib\cmake\llvm`.
 
-### Building WAVM on Windows 
+##### Building WAVM on Windows 
 
 **1.) Install the [Visual Studio C++ Build Tools for Visual Studio 2015 or 2017](http://landinghub.visualstudio.com/visual-cpp-build-tools)**
 
